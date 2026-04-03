@@ -95,7 +95,7 @@ it('Locale Function', () => {
   expect(result).toEqual(expect.any(String))
 })
 
-// https://github.com/iamkun/dayjs/issues/646
+// https://github.com/hamzaKaGit/dayjs/issues/646
 it('Time from now with UTC', () => {
   dayjs.extend(utc)
 

@@ -1,6 +1,6 @@
 /// <reference path="./types.d.ts" />
 
-declare module 'dayjs/locale/*' {
+declare module '@hamzaka/dayjs/locale/*' {
   namespace locale {
     interface Locale extends ILocale {}
   }

@@ -1,9 +1,9 @@
-import { PluginFunc } from 'dayjs'
+import { PluginFunc } from '@hamzaka/dayjs'
 
 declare const plugin: PluginFunc
 export = plugin
 
-declare module 'dayjs' {
+declare module '@hamzaka/dayjs' {
   export function max(dayjs: [Dayjs, ...Dayjs[]]): Dayjs
   export function max(noDates: never[]): null
   export function max(maybeDates: Dayjs[]): Dayjs | null

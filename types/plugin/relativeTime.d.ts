@@ -1,4 +1,4 @@
-import { PluginFunc, ConfigType } from 'dayjs'
+import { PluginFunc, ConfigType } from '@hamzaka/dayjs'
 
 declare interface RelativeTimeThreshold {
   l: string
@@ -14,7 +14,7 @@ declare interface RelativeTimeOptions {
 declare const plugin: PluginFunc<RelativeTimeOptions>
 export = plugin
 
-declare module 'dayjs' {
+declare module '@hamzaka/dayjs' {
   interface Dayjs {
     fromNow(withoutSuffix?: boolean): string
     from(compared: ConfigType, withoutSuffix?: boolean): string

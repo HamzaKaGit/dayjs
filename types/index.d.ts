@@ -38,7 +38,7 @@ declare namespace dayjs {
      * dayjs().clone()// => Dayjs
      * dayjs(dayjs('2019-01-25')) // passing a Dayjs object to a constructor will also clone it
      * ```
-     * Docs: https://day.js.org/docs/en/parse/dayjs-clone
+     * Docs: https://dayjs.io/docs/en/parse/dayjs-clone
      */
     clone(): Dayjs
     /**
@@ -46,7 +46,7 @@ declare namespace dayjs {
      * ```
      * dayjs().isValid()// => boolean
      * ```
-     * Docs: https://day.js.org/docs/en/parse/is-valid
+     * Docs: https://dayjs.io/docs/en/parse/is-valid
      */
     isValid(): boolean
     /**
@@ -54,7 +54,7 @@ declare namespace dayjs {
      * ```
      * dayjs().year()// => 2020
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/year
+     * Docs: https://dayjs.io/docs/en/get-set/year
      */
     year(): number
     /**
@@ -62,7 +62,7 @@ declare namespace dayjs {
      * ```
      * dayjs().year(2000)// => Dayjs
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/year
+     * Docs: https://dayjs.io/docs/en/get-set/year
      */
     year(value: number): Dayjs
     /**
@@ -72,7 +72,7 @@ declare namespace dayjs {
      * ```
      * dayjs().month()// => 0-11
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/month
+     * Docs: https://dayjs.io/docs/en/get-set/month
      */
     month(): number
     /**
@@ -84,7 +84,7 @@ declare namespace dayjs {
      * ```
      * dayjs().month(0)// => Dayjs
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/month
+     * Docs: https://dayjs.io/docs/en/get-set/month
      */
     month(value: number): Dayjs
     /**
@@ -92,7 +92,7 @@ declare namespace dayjs {
      * ```
      * dayjs().date()// => 1-31
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/date
+     * Docs: https://dayjs.io/docs/en/get-set/date
      */
     date(): number
     /**
@@ -102,7 +102,7 @@ declare namespace dayjs {
      * ```
      * dayjs().date(1)// => Dayjs
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/date
+     * Docs: https://dayjs.io/docs/en/get-set/date
      */
     date(value: number): Dayjs
     /**
@@ -112,7 +112,7 @@ declare namespace dayjs {
      * ```
      * dayjs().day()// 0-6
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/day
+     * Docs: https://dayjs.io/docs/en/get-set/day
      */
     day(): 0 | 1 | 2 | 3 | 4 | 5 | 6
     /**
@@ -122,7 +122,7 @@ declare namespace dayjs {
      * ```
      * dayjs().day(0)// => Dayjs
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/day
+     * Docs: https://dayjs.io/docs/en/get-set/day
      */
     day(value: number): Dayjs
     /**
@@ -130,7 +130,7 @@ declare namespace dayjs {
      * ```
      * dayjs().hour()// => 0-23
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/hour
+     * Docs: https://dayjs.io/docs/en/get-set/hour
      */
     hour(): number
     /**
@@ -140,7 +140,7 @@ declare namespace dayjs {
      * ```
      * dayjs().hour(12)// => Dayjs
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/hour
+     * Docs: https://dayjs.io/docs/en/get-set/hour
      */
     hour(value: number): Dayjs
     /**
@@ -148,7 +148,7 @@ declare namespace dayjs {
      * ```
      * dayjs().minute()// => 0-59
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/minute
+     * Docs: https://dayjs.io/docs/en/get-set/minute
      */
     minute(): number
     /**
@@ -158,7 +158,7 @@ declare namespace dayjs {
      * ```
      * dayjs().minute(59)// => Dayjs
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/minute
+     * Docs: https://dayjs.io/docs/en/get-set/minute
      */
     minute(value: number): Dayjs
     /**
@@ -166,7 +166,7 @@ declare namespace dayjs {
      * ```
      * dayjs().second()// => 0-59
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/second
+     * Docs: https://dayjs.io/docs/en/get-set/second
      */
     second(): number
     /**
@@ -183,7 +183,7 @@ declare namespace dayjs {
      * ```
      * dayjs().millisecond()// => 0-999
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/millisecond
+     * Docs: https://dayjs.io/docs/en/get-set/millisecond
      */
     millisecond(): number
     /**
@@ -193,7 +193,7 @@ declare namespace dayjs {
      * ```
      * dayjs().millisecond(1)// => Dayjs
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/millisecond
+     * Docs: https://dayjs.io/docs/en/get-set/millisecond
      */
     millisecond(value: number): Dayjs
     /**
@@ -209,7 +209,7 @@ declare namespace dayjs {
      * dayjs().set('month', 3) // April
      * dayjs().set('second', 30)
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/set
+     * Docs: https://dayjs.io/docs/en/get-set/set
      */
     set(unit: UnitType, value: number): Dayjs
     /**
@@ -225,7 +225,7 @@ declare namespace dayjs {
      * dayjs().get('month') // start 0
      * dayjs().get('date')
      * ```
-     * Docs: https://day.js.org/docs/en/get-set/get
+     * Docs: https://dayjs.io/docs/en/get-set/get
      */
     get(unit: UnitType): number
     /**
@@ -235,7 +235,7 @@ declare namespace dayjs {
      * ```
      * Units are case insensitive, and support plural and short forms.
      *
-     * Docs: https://day.js.org/docs/en/manipulate/add
+     * Docs: https://dayjs.io/docs/en/manipulate/add
      */
     add(value: number, unit?: ManipulateType): Dayjs
     /**
@@ -245,7 +245,7 @@ declare namespace dayjs {
      * ```
      * Units are case insensitive, and support plural and short forms.
      *
-     * Docs: https://day.js.org/docs/en/manipulate/subtract
+     * Docs: https://dayjs.io/docs/en/manipulate/subtract
      */
     subtract(value: number, unit?: ManipulateType): Dayjs
     /**
@@ -255,7 +255,7 @@ declare namespace dayjs {
      * ```
      * Units are case insensitive, and support plural and short forms.
      *
-     * Docs: https://day.js.org/docs/en/manipulate/start-of
+     * Docs: https://dayjs.io/docs/en/manipulate/start-of
      */
     startOf(unit: OpUnitType): Dayjs
     /**
@@ -265,7 +265,7 @@ declare namespace dayjs {
      * ```
      * Units are case insensitive, and support plural and short forms.
      *
-     * Docs: https://day.js.org/docs/en/manipulate/end-of
+     * Docs: https://dayjs.io/docs/en/manipulate/end-of
      */
     endOf(unit: OpUnitType): Dayjs
     /**
@@ -277,7 +277,7 @@ declare namespace dayjs {
      * dayjs('2019-01-25').format('[YYYYescape] YYYY-MM-DDTHH:mm:ssZ[Z]')// 'YYYYescape 2019-01-25T00:00:00-02:00Z'
      * dayjs('2019-01-25').format('DD/MM/YYYY') // '25/01/2019'
      * ```
-     * Docs: https://day.js.org/docs/en/display/format
+     * Docs: https://dayjs.io/docs/en/display/format
      */
     format(template?: string): string
     /**
@@ -298,7 +298,7 @@ declare namespace dayjs {
      * ```
      * Units are case insensitive, and support plural and short forms.
      *
-     * Docs: https://day.js.org/docs/en/display/difference
+     * Docs: https://dayjs.io/docs/en/display/difference
      */
     diff(date?: ConfigType, unit?: QUnitType | OpUnitType, float?: boolean): number
     /**
@@ -309,7 +309,7 @@ declare namespace dayjs {
      * ```
      * To get a Unix timestamp (the number of seconds since the epoch) from a Day.js object, you should use Unix Timestamp `dayjs#unix()`.
      *
-     * Docs: https://day.js.org/docs/en/display/unix-timestamp-milliseconds
+     * Docs: https://dayjs.io/docs/en/display/unix-timestamp-milliseconds
      */
     valueOf(): number
     /**
@@ -319,7 +319,7 @@ declare namespace dayjs {
      * ```
      * This value is floored to the nearest second, and does not include a milliseconds component.
      *
-     * Docs: https://day.js.org/docs/en/display/unix-timestamp
+     * Docs: https://dayjs.io/docs/en/display/unix-timestamp
      */
     unix(): number
     /**
@@ -327,7 +327,7 @@ declare namespace dayjs {
      * ```
      * dayjs('2019-01-25').daysInMonth() // 31
      * ```
-     * Docs: https://day.js.org/docs/en/display/days-in-month
+     * Docs: https://dayjs.io/docs/en/display/days-in-month
      */
     daysInMonth(): number
     /**
@@ -342,7 +342,7 @@ declare namespace dayjs {
      * ```
      * dayjs('2019-01-25').toJSON() // '2019-01-25T02:00:00.000Z'
      * ```
-     * Docs: https://day.js.org/docs/en/display/as-json
+     * Docs: https://dayjs.io/docs/en/display/as-json
      */
     toJSON(): string
     /**
@@ -350,7 +350,7 @@ declare namespace dayjs {
      * ```
      * dayjs('2019-01-25').toISOString() // '2019-01-25T02:00:00.000Z'
      * ```
-     * Docs: https://day.js.org/docs/en/display/as-iso-string
+     * Docs: https://dayjs.io/docs/en/display/as-iso-string
      */
     toISOString(): string
     /**
@@ -358,7 +358,7 @@ declare namespace dayjs {
      * ```
      * dayjs('2019-01-25').toString() // 'Fri, 25 Jan 2019 02:00:00 GMT'
      * ```
-     * Docs: https://day.js.org/docs/en/display/as-string
+     * Docs: https://dayjs.io/docs/en/display/as-string
      */
     toString(): string
     /**
@@ -366,7 +366,7 @@ declare namespace dayjs {
      * ```
      * dayjs().utcOffset()
      * ```
-     * Docs: https://day.js.org/docs/en/manipulate/utc-offset
+     * Docs: https://dayjs.io/docs/en/manipulate/utc-offset
      */
     utcOffset(): number
     /**
@@ -380,7 +380,7 @@ declare namespace dayjs {
      * ```
      * Units are case insensitive, and support plural and short forms.
      *
-     * Docs: https://day.js.org/docs/en/query/is-before
+     * Docs: https://dayjs.io/docs/en/query/is-before
      */
     isBefore(date?: ConfigType, unit?: OpUnitType): boolean
     /**
@@ -392,7 +392,7 @@ declare namespace dayjs {
      * ```
      * dayjs().isSame('2011-01-01', 'year')// => boolean
      * ```
-     * Docs: https://day.js.org/docs/en/query/is-same
+     * Docs: https://dayjs.io/docs/en/query/is-same
      */
     isSame(date?: ConfigType, unit?: OpUnitType): boolean
     /**
@@ -406,7 +406,7 @@ declare namespace dayjs {
      * ```
      * Units are case insensitive, and support plural and short forms.
      *
-     * Docs: https://day.js.org/docs/en/query/is-after
+     * Docs: https://dayjs.io/docs/en/query/is-after
      */
     isAfter(date?: ConfigType, unit?: OpUnitType): boolean
 

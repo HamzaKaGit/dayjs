@@ -1,6 +1,6 @@
-import { PluginFunc } from 'dayjs'
+import { PluginFunc } from '@hamzaka/dayjs'
 
-declare module 'dayjs' {
+declare module '@hamzaka/dayjs' {
   interface ConfigTypeMap {
     bigIntSupport: BigInt
   }

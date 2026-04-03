@@ -1,5 +1,5 @@
-import { PluginFunc } from 'dayjs'
-import { OpUnitType, UnitTypeLongPlural } from 'dayjs';
+import { PluginFunc } from '@hamzaka/dayjs'
+import { OpUnitType, UnitTypeLongPlural } from '@hamzaka/dayjs';
 
 declare const plugin: PluginFunc
 export as namespace plugin;
@@ -14,12 +14,12 @@ declare namespace plugin {
    * @deprecated Please use more strict types
    */
   type DurationAddType = number | object | Duration
-  
+
   type DurationUnitsObjectType = Partial<{
     [unit in Exclude<UnitTypeLongPlural, "dates"> | "weeks"]: number
   }>;
   type DurationUnitType = Exclude<OpUnitType, "date" | "dates">
-  type CreateDurationType = 
+  type CreateDurationType =
     ((units: DurationUnitsObjectType) => Duration)
     & ((time: number, unit?: DurationUnitType) => Duration)
     & ((ISO_8601: string) => Duration)
@@ -61,7 +61,7 @@ declare namespace plugin {
     get(unit: DurationUnitType): number
 
     add: AddDurationType
-    
+
     subtract: AddDurationType
 
     toJSON(): string
@@ -74,7 +74,7 @@ declare namespace plugin {
   }
 }
 
-declare module 'dayjs' {
+declare module '@hamzaka/dayjs' {
   interface Dayjs {
     add(duration: plugin.Duration): Dayjs
     subtract(duration: plugin.Duration): Dayjs

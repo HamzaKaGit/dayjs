@@ -1,9 +1,9 @@
-import { PluginFunc, UnitType, ConfigType } from 'dayjs'
+import { PluginFunc, UnitType, ConfigType } from '@hamzaka/dayjs'
 
 declare const plugin: PluginFunc
 export = plugin
 
-declare module 'dayjs' {
+declare module '@hamzaka/dayjs' {
   interface Dayjs {
     years(): number
 

@@ -1,5 +1,5 @@
 // English (New Zealand) [en-nz]
-import dayjs from 'dayjs'
+import dayjs from '@hamzaka/dayjs'
 
 const locale = {
   name: 'en-nz',

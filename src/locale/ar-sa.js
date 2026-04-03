@@ -1,5 +1,5 @@
 // Arabic (Saudi Arabia) [ar-sa]
-import dayjs from 'dayjs'
+import dayjs from '@hamzaka/dayjs'
 
 const locale = {
   name: 'ar-sa',

@@ -1,5 +1,5 @@
 // Serbian Cyrillic [sr-cyrl]
-import dayjs from 'dayjs'
+import dayjs from '@hamzaka/dayjs'
 
 const translator = {
   words: {

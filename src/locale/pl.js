@@ -1,10 +1,10 @@
 // Polish [pl]
-import dayjs from 'dayjs'
+import dayjs from '@hamzaka/dayjs'
 
 function plural(n) {
   return (n % 10 < 5) && (n % 10 > 1) && ((~~(n / 10) % 10) !== 1) // eslint-disable-line
 }
-/* eslint-disable */ 
+/* eslint-disable */
 function translate(number, withoutSuffix, key) {
   const result = `${number} `
   switch (key) {

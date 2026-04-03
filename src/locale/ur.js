@@ -1,5 +1,5 @@
 // Urdu [ur]
-import dayjs from 'dayjs'
+import dayjs from '@hamzaka/dayjs'
 
 const locale = {
   name: 'ur',

@@ -1,5 +1,5 @@
 // Estonian [et]
-import dayjs from 'dayjs'
+import dayjs from '@hamzaka/dayjs'
 
 function relativeTimeWithTense(number, withoutSuffix, key, isFuture) {
   const format = {

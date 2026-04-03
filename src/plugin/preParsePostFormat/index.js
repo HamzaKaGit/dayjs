@@ -1,4 +1,4 @@
-// Plugin template from https://day.js.org/docs/en/plugin/plugin
+// Plugin template from https://dayjs.io/docs/en/plugin/plugin
 export default (option, dayjsClass) => {
   const oldParse = dayjsClass.prototype.parse
   dayjsClass.prototype.parse = function (cfg) {

@@ -1,6 +1,6 @@
 简体中文 | [English](../../README.md) | [日本語](../ja/README-ja.md) | [Português Brasileiro](../pt-br/README-pt-br.md) | [한국어](../ko/README-ko.md) | [Español (España)](../es-es/README-es-es.md) | [Русский](../ru/README-ru.md)
 
-<p align="center"><a href="https://day.js.org/zh-CN/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/zh-CN/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">Moment.js 的 <b>2kB</b> 轻量化方案，拥有同样强大的 API</p>
@@ -11,11 +11,11 @@
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/npm/l/dayjs.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -46,15 +46,15 @@ dayjs()
 
 ### 文档
 
-访问 [day.js.org](https://day.js.org/) 网站查看更详细的文档
+访问 [dayjs.io](https://dayjs.io/) 网站查看更详细的文档
 
 ### 安装
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[安装指南](https://day.js.org/docs/zh-CN/installation/installation)
+📚[安装指南](https://dayjs.io/docs/zh-CN/installation/installation)
 
 ### API
 
@@ -74,7 +74,7 @@ dayjs().add(1, 'year') // 处理
 dayjs().isBefore(dayjs()) // 查询
 ```
 
-📚[API 参考](https://day.js.org/docs/zh-CN/parse/parse)
+📚[API 参考](https://dayjs.io/docs/zh-CN/parse/parse)
 
 ### 国际化 I18n
 
@@ -83,7 +83,7 @@ Day.js 支持国际化
 但除非手动加载，多国语言默认是不会被打包到工程里的
 
 ```javascript
-import 'dayjs/locale/es' // 按需加载
+import '@hamzaka/dayjs/locale/es' // 按需加载
 
 dayjs.locale('es') // 全局使用西班牙语
 
@@ -92,21 +92,21 @@ dayjs('2018-05-05')
   .format() // 在这个实例上使用简体中文
 ```
 
-📚[国际化 I18n](https://day.js.org/docs/zh-CN/i18n/i18n)
+📚[国际化 I18n](https://dayjs.io/docs/zh-CN/i18n/i18n)
 
 ### 插件
 
 插件是一些独立的程序，可以给 Day.js 增加新功能和扩展已有功能
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // 按需加载插件
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' // 按需加载插件
 
 dayjs.extend(advancedFormat) // 使用插件
 
 dayjs().format('Q Do k kk X x') // 使用扩展后的API
 ```
 
-📚[插件列表](https://day.js.org/docs/zh-CN/plugin/plugin)
+📚[插件列表](https://dayjs.io/docs/zh-CN/plugin/plugin)
 
 ## 开源协议
 

@@ -1,6 +1,6 @@
 Português Brasileiro | [English](../../README.md) | [简体中文](../zh-cn/README.zh-CN.md) | [日本語](../ja/README-ja.md) | [한국어](../ko/README-ko.md) | [Español (España)](../es-es/README-es-es.md) | [Русский](../ru/README-ru.md)| [עברית](./docs/he/README-he.md)
 
-<p align="center"><a href="https://day.js.org/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">Alternativa veloz ao Moment.js, com <b>2kB</b> e a mesma API moderna</p>
@@ -11,11 +11,11 @@ Português Brasileiro | [English](../../README.md) | [简体中文](../zh-cn/REA
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/npm/l/dayjs.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -46,14 +46,14 @@ dayjs()
 
 ### Documentação
 
-Você pode encontrar mais detalhes sobre a API e também a documentação completa em [day.js.org](https://day.js.org/).
+Você pode encontrar mais detalhes sobre a API e também a documentação completa em [dayjs.io](https://dayjs.io/).
 ### Instalação
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[Guia de instalação](https://day.js.org/docs/en/installation/installation)
+📚[Guia de instalação](https://dayjs.io/docs/en/installation/installation)
 
 ### API
 
@@ -73,7 +73,7 @@ dayjs().add(1, 'year') // manipula
 dayjs().isBefore(dayjs()) // verifica
 ```
 
-📚[Referência da API](https://day.js.org/docs/en/parse/parse)
+📚[Referência da API](https://dayjs.io/docs/en/parse/parse)
 
 ### I18n
 
@@ -82,7 +82,7 @@ Day.js tem suporte para internacionalização.
 Porém nenhuma estará inclusa no seu _build_ a menos que você utilize-a.
 
 ```javascript
-import 'dayjs/locale/es' // carregar sob demanda
+import '@hamzaka/dayjs/locale/es' // carregar sob demanda
 
 dayjs.locale('es') // usar locale espanhol globalmente
 
@@ -91,21 +91,21 @@ dayjs('2018-05-05')
   .format() // usar locale em português brasileiro em uma instância específica
 ```
 
-📚[Internacionalização](https://day.js.org/docs/en/i18n/i18n)
+📚[Internacionalização](https://dayjs.io/docs/en/i18n/i18n)
 
 ### Plugin
 
 Um plugin é um módulo independente que pode ser adicionado ao Day.js para estender funcionalidades e adicionar novos recursos.
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // carregar sob demanda
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' // carregar sob demanda
 
 dayjs.extend(advancedFormat) // usar plugin
 
 dayjs().format('Q Do k kk X x') // mais formatos disponíveis pelo plugin
 ```
 
-📚[Lista de Plugins](https://day.js.org/docs/en/plugin/plugin)
+📚[Lista de Plugins](https://dayjs.io/docs/en/plugin/plugin)
 
 ## Patrocinadores
 

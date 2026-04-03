@@ -1,6 +1,6 @@
 Türkçe | [English](../../README.md) | [简体中文](../zh-cn/README.zh-CN.md) | [日本語](../ja/README-ja.md) | [Português Brasileiro](../pt-br/README-pt-br.md) | [한국어](../ko/README-ko.md) | [Español (España)](../es-es/README-es-es.md) | [Русский](../ru/README-ru.md)| [עברית](./docs/he/README-he.md)
 
-<p align="center"><a href="https://day.js.org/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">Aynı modern API ile <b>2kB</b> hızlı bir Moment.js alternatifi</p>
@@ -11,11 +11,11 @@ Türkçe | [English](../../README.md) | [简体中文](../zh-cn/README.zh-CN.md)
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -46,15 +46,15 @@ dayjs()
 
 ### Dökümantasyon
 
-Daha fazla bilgiye, API ve diğer dökümanlara [day.js.org](https://day.js.org/) websitesinden ulaşabilirsiniz.
+Daha fazla bilgiye, API ve diğer dökümanlara [dayjs.io](https://dayjs.io/) websitesinden ulaşabilirsiniz.
 
 ## Kurulum
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[Kurulum Rehberi](https://day.js.org/docs/en/installation/installation)
+📚[Kurulum Rehberi](https://dayjs.io/docs/en/installation/installation)
 
 ## API
 
@@ -74,7 +74,7 @@ dayjs().add(1, 'year') // değiştirme
 dayjs().isBefore(dayjs()) // sorgulama
 ```
 
-📚[API Referansı](https://day.js.org/docs/en/parse/parse)
+📚[API Referansı](https://dayjs.io/docs/en/parse/parse)
 
 ## I18n
 
@@ -83,7 +83,7 @@ Day.js, uluslararasılaştırma için büyük desteğe sahiptir.
 Ancak siz kullanmadığınız sürece bunların hiçbiri yapınıza dahil edilmeyecektir.
 
 ```javascript
-import 'dayjs/locale/es' // isteğe göre yükle
+import '@hamzaka/dayjs/locale/es' // isteğe göre yükle
 
 dayjs.locale('tr') // yerel ayarı Türkçe olarak kullan
 
@@ -92,21 +92,21 @@ dayjs('2018-05-05')
   .format() //belirli bir durum için Basitleştirilmiş Çince formatında görüntüleme
 ```
 
-📚[Uluslararasılaştırma](https://day.js.org/docs/en/i18n/i18n)
+📚[Uluslararasılaştırma](https://dayjs.io/docs/en/i18n/i18n)
 
 ## Eklenti
 
 Eklenti, işlevselliği genişletmek veya yeni özellikler eklemek için Day.js'e eklenebilen bağımsız bir modüldür.
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // isteğe göre yükle
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' // isteğe göre yükle
 
 dayjs.extend(advancedFormat) // eklentiyi kullan
 
 dayjs().format('Q Do k kk X x') // diğer mevcut formatlar
 ```
 
-📚[Eklenti Listesi](https://day.js.org/docs/en/plugin/plugin)
+📚[Eklenti Listesi](https://dayjs.io/docs/en/plugin/plugin)
 
 ## Sponsorlar
 

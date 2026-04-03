@@ -1,4 +1,4 @@
-import dayjs from 'dayjs'
+import dayjs from '@hamzaka/dayjs'
 // basic usage
 dayjs().format()
 

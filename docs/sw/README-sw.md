@@ -1,6 +1,6 @@
 Swahili | [English](../../README.md) | [Kireno](../pt-br/README-pt-br.md) | [Kichina](../zh-cn/README.zh-CN.md) | [Kijapani](../ja/README-ja.md) | [Kikorea](../ko/README-ko.md) | [Kihispania](../es-es/README-es-es.md) | [Kirusi](../ru/README-ru.md) | [Kituruki](../tr/README-tr.md) | [Sinhala](../si/README-si.md) | [Kiebrania](../he/README-he.md)
 
-<p align="center"><a href="https://day.js.org/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js" /></a></p>
 <p align="center">Fast <b>2kB</b> mbadala wa Moment.js ukiwa na API zinazofanana na za kisasa</p>
@@ -10,11 +10,11 @@ Swahili | [English](../../README.md) | [Kireno](../pt-br/README-pt-br.md) | [Kic
             alt="Gzip Size"></a>
              <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -41,15 +41,15 @@ dayjs().startOf('month').add(1, 'day').set('year', 2018).format('YYYY-MM-DD HH:m
 
 ### Nyaraka
 
-Unaweza kutafuta maelekezo zaidi ya  API na nyaraka zingine kupitia tovuti ya [day.js.org](https://day.js.org/).
+Unaweza kutafuta maelekezo zaidi ya  API na nyaraka zingine kupitia tovuti ya [dayjs.io](https://dayjs.io/).
 
 ### Kusakinisha
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[Maelekezo ya Kusakinisha](https://day.js.org/docs/en/installation/installation)
+📚[Maelekezo ya Kusakinisha](https://dayjs.io/docs/en/installation/installation)
 
 ### API
 
@@ -66,7 +66,7 @@ dayjs().add(1, 'year') // manipulate
 dayjs().isBefore(dayjs()) // query
 ```
 
-📚[Maelekezo Ya API](https://day.js.org/docs/en/parse/parse)
+📚[Maelekezo Ya API](https://dayjs.io/docs/en/parse/parse)
 
 ### I18n
 
@@ -75,32 +75,32 @@ Day.js ina ruhusu kwa internalization.
 Lakini hakuna hata moja ambayo itawekwa katika utengezaji endapo utatumia.
 
 ```javascript
-import 'dayjs/locale/es' // load on demand
+import '@hamzaka/dayjs/locale/es' // load on demand
 
 dayjs.locale('es') // use Spanish locale globally
 
 dayjs('2018-05-05').locale('zh-cn').format() // use Chinese Simplified locale in a specific instance
 ```
 
-📚[Internationalization](https://day.js.org/docs/en/i18n/i18n)
+📚[Internationalization](https://dayjs.io/docs/en/i18n/i18n)
 
 ### Zana
 
 Zana ya Kujumuisha ni moduli inayojitegemea ambayo inaweza ikaweka katika Day.js ili kuweza kuongeza uwezo au kuongeza sifa.
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // Upakiaji kwa Mahitaji
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' // Upakiaji kwa Mahitaji
 
 dayjs.extend(advancedFormat) // tumia plugin
 
 dayjs().format('Q Do k kk X x') // njia zaidi zilizopo
 ```
 
-📚[Idadi Ya Plugin](https://day.js.org/docs/en/plugin/plugin)
+📚[Idadi Ya Plugin](https://dayjs.io/docs/en/plugin/plugin)
 
 ### Trend Zinazoweza Tumika
 
-<a href="https://npm-compare.com/moment,dayjs/#timeRange=THREE_YEARS" target="_blank" rel="noopener noreferrer">
+<a href="https://npm-compare.com/moment,dayjs/#timeRange=THREE_YEARS" target="_blank">
   <img src="https://user-images.githubusercontent.com/3455798/270162667-c7bd2ebe-675e-45c6-a2c9-dc67f3b65d6e.png">
 </a>
 

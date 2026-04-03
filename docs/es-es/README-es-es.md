@@ -1,6 +1,6 @@
 Español (España) | [English](../../README.md) | [简体中文](../zh-cn/README.zh-CN.md) | [日本語](../ja/README-ja.md) | [Português Brasileiro](../pt-br/README-pt-br.md) | [한국어](../ko/README-ko.md) | [Русский](../ru/README-ru.md) | [עברית](./docs/he/README-he.md)
 
-<p align="center"><a href="https://day.js.org/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">Alternativa rápida y ligera <b>2kB</b> a Moment.js, con la misma API moderna</p>
@@ -11,11 +11,11 @@ Español (España) | [English](../../README.md) | [简体中文](../zh-cn/README
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -46,15 +46,15 @@ dayjs()
 
 ### Documentación
 
-Puedes encontrar más detalles, la API y otros documentos en [day.js.org](https://day.js.org/) el sitio web.
+Puedes encontrar más detalles, la API y otros documentos en [dayjs.io](https://dayjs.io/) el sitio web.
 
 ## Instalación
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[Guía de instalación](https://day.js.org/docs/en/installation/installation)
+📚[Guía de instalación](https://dayjs.io/docs/en/installation/installation)
 
 ## API
 
@@ -74,7 +74,7 @@ dayjs().add(1, 'year') // manipula
 dayjs().isBefore(dayjs()) // consulta
 ```
 
-📚[Referencia de la API](https://day.js.org/docs/en/parse/parse)
+📚[Referencia de la API](https://dayjs.io/docs/en/parse/parse)
 
 ## I18n
 
@@ -83,7 +83,7 @@ Day.js soporta muy bien la internacionalización.
 Pero no se incluirá en tu compilación final a menos que así lo requieras.
 
 ```javascript
-import 'dayjs/locale/es' // carga bajo demanda
+import '@hamzaka/dayjs/locale/es' // carga bajo demanda
 
 dayjs.locale('es') // usar la configuración regional española globalmente
 
@@ -92,21 +92,21 @@ dayjs('2018-05-05')
   .format() // usar el chino simplificado en una instancia concreta
 ```
 
-📚[Internacionalización](https://day.js.org/docs/en/i18n/i18n)
+📚[Internacionalización](https://dayjs.io/docs/en/i18n/i18n)
 
 ## Complementos
 
 Un complemento o _plugin_ es un módulo independiente que puede añadirse a Day.js para extender su funcionalidad o añadir nuevas características.
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // carga bajo demanda
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' // carga bajo demanda
 
 dayjs.extend(advancedFormat) // uso del complemento
 
 dayjs().format('Q Do k kk X x') // ahora tenemos más formatos disponibles
 ```
 
-📚[Lista de complementos](https://day.js.org/docs/en/plugin/plugin)
+📚[Lista de complementos](https://dayjs.io/docs/en/plugin/plugin)
 
 ## Patrocinadores
 

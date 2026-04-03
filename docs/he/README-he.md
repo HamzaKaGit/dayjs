@@ -2,7 +2,7 @@
 
 עברית | [English](../../README.md)  | [简体中文](./docs/zh-cn/README.zh-CN.md) | [日本語](./docs/ja/README-ja.md) | [Português Brasileiro](./docs/pt-br/README-pt-br.md) | [한국어](./docs/ko/README-ko.md) | [Español (España)](./docs/es-es/README-es-es.md) | [Русский](./docs/ru/README-ru.md) | [Türkçe](./docs/tr/README-tr.md) | [සිංහල](./docs/si/README-si.md)
 
-<p align="center"><a href="https://day.js.org/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">אלטרנטיבה מהירה ל-Moment.js ששוקלת רק <b>2kB</b> עם אותן יכולות מודרניות</p>
@@ -12,11 +12,11 @@
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -46,16 +46,16 @@ dayjs().startOf('month').add(1, 'day').set('year', 2018).format('YYYY-MM-DD HH:m
 ## צעדים ראשונים
 
 ### דוקומנטצייה
-באתר [day.js.org](https://day.js.org/) ניתן למצוא פרטים נוספים, API, ותיעודים נוספים.
+באתר [dayjs.io](https://dayjs.io/) ניתן למצוא פרטים נוספים, API, ותיעודים נוספים.
 
 
 ### התקנה
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[מדריך התקנה](https://day.js.org/docs/en/installation/installation)
+📚[מדריך התקנה](https://dayjs.io/docs/en/installation/installation)
 
 ### API
 מאוד קל להשתמש ב-Day.js לפענוח, אימות, מניפולציה והצגה של תאריכים ושעות.
@@ -77,7 +77,7 @@ dayjs().isBefore(dayjs()) // שאילתה
 
 </div>
 
-📚[תיעודי API](https://day.js.org/docs/en/parse/parse)
+📚[תיעודי API](https://dayjs.io/docs/en/parse/parse)
 
 ### I18n
 ל-Day.js יש תמיכה מצוינית בבינלאומיות.
@@ -88,7 +88,7 @@ dayjs().isBefore(dayjs()) // שאילתה
 
 
 ```javascript
-import 'dayjs/locale/es' // טעינה לפי הצורך
+import '@hamzaka/dayjs/locale/es' // טעינה לפי הצורך
 
 dayjs.locale('es') // הגדרה לשימוש בספרדית באופן גלובלאלי
 
@@ -98,7 +98,7 @@ dayjs('2018-05-05').locale('zh-cn').format() // הגדרה לשימוש בסינ
 </div>
 
 
-📚[בינלאומיות](https://day.js.org/docs/en/i18n/i18n)
+📚[בינלאומיות](https://dayjs.io/docs/en/i18n/i18n)
 
 ### תוסף
 
@@ -109,7 +109,7 @@ dayjs('2018-05-05').locale('zh-cn').format() // הגדרה לשימוש בסינ
 
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' //  טעינה לפי הצורך
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' //  טעינה לפי הצורך
 
 dayjs.extend(advancedFormat) // שימוש בתוסף
 
@@ -118,7 +118,7 @@ dayjs().format('Q Do k kk X x') // כעת יותר אפשרויות זמינות
 
 </div>
 
-📚[רשימת תוספים](https://day.js.org/docs/en/plugin/plugin)
+📚[רשימת תוספים](https://dayjs.io/docs/en/plugin/plugin)
 
 ### ספונסרים
 תמכו בפרויקט זה כדי להיות ספונסר. קבלו לוגו עם קישור לאתר שלכם שיופיע כאן.
@@ -141,7 +141,7 @@ dayjs().format('Q Do k kk X x') // כעת יותר אפשרויות זמינות
   <img width="70" src="https://user-images.githubusercontent.com/17680888/162761622-1407a849-0c41-4591-8aa9-f98114ec2092.png">
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://rxdb.info/?utm_source=day.js.org&utm_medium=banner&utm_campaign=day.js.org-sponsored" target="_blank"><img width="70" src="https://user-images.githubusercontent.com/17680888/200301812-9c9bd523-5dc4-4cab-b380-543fbcd3802c.svg"></a>
+<a href="https://rxdb.info/?utm_source=dayjs.io&utm_medium=banner&utm_campaign=dayjs.io-sponsored" target="_blank"><img width="70" src="https://user-images.githubusercontent.com/17680888/200301812-9c9bd523-5dc4-4cab-b380-543fbcd3802c.svg"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/vendure-ecommerce" target="_blank"><img width="70" src="https://avatars.githubusercontent.com/u/39629390?s=52&v=4"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

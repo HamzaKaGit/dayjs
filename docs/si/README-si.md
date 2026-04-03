@@ -1,6 +1,6 @@
 සිංහල | [English](../../README.md) | [简体中文](./docs/zh-cn/README.zh-CN.md) | [日本語](./docs/ja/README-ja.md) | [Português Brasileiro](./docs/pt-br/README-pt-br.md) | [한국어](./docs/ko/README-ko.md) | [Español (España)](./docs/es-es/README-es-es.md) | [Русский](./docs/ru/README-ru.md) | [Türkçe](./docs/tr/README-tr.md)| [עברית](./docs/he/README-he.md)
 
-<p align="center"><a href="https://day.js.org/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">නවීන යෙ.ක්‍ර.මු. සමඟින් Moment.js සඳහා <b>කි.බ. 2</b> ක වේගවත් විකල්පයකි</p>
@@ -10,11 +10,11 @@
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -41,15 +41,15 @@ dayjs().startOf('month').add(1, 'day').set('year', 2018).format('YYYY-MM-DD HH:m
 
 ### ප්‍රලේඛනය
 
-[day.js.org](https://day.js.org/) වියමන අඩවියෙහි යෙ.ක්‍ර.මු. සහ වෙනත් ප්‍රලේඛනවල වැඩි විස්තර සොයා ගැනීමට හැකිය.
+[dayjs.io](https://dayjs.io/) වියමන අඩවියෙහි යෙ.ක්‍ර.මු. සහ වෙනත් ප්‍රලේඛනවල වැඩි විස්තර සොයා ගැනීමට හැකිය.
 
 ### ස්ථාපනය
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[ ස්ථාපන මාර්ගෝපදේශය](https://day.js.org/docs/en/installation/installation)
+📚[ ස්ථාපන මාර්ගෝපදේශය](https://dayjs.io/docs/en/installation/installation)
 
 ### යෙ.ක්‍ර.මු.
 
@@ -67,7 +67,7 @@ dayjs().add(1, 'year') // manipulate
 dayjs().isBefore(dayjs()) // query
 ```
 
-📚[ යෙ.ක්‍ර.මු. යොමුව](https://day.js.org/docs/en/parse/parse)
+📚[ යෙ.ක්‍ර.මු. යොමුව](https://dayjs.io/docs/en/parse/parse)
 
 ### I18n
 
@@ -76,27 +76,27 @@ dayjs().isBefore(dayjs()) // query
 නමුත් භාවිතා කරන්නේ නම් මිස ඒවා කිසිවක් ඔබගේ තැනීමට ඇතුළත් නොවේ.
 
 ```javascript
-import 'dayjs/locale/es' // load on demand
+import '@hamzaka/dayjs/locale/es' // load on demand
 
 dayjs.locale('es') // use Spanish locale globally
 
 dayjs('2018-05-05').locale('zh-cn').format() // use Chinese Simplified locale in a specific instance
 ```
-📚[ දේශීයකරණය](https://day.js.org/docs/en/i18n/i18n)
+📚[ දේශීයකරණය](https://dayjs.io/docs/en/i18n/i18n)
 
 ### දිගුව
 
 දිගුවක් යනු ක්‍රියාකාරිත්වය විස්තීරණයට හෝ නව විශේෂාංග අඩංගු කිරීමට Day.js වෙත එකතු කළ හැකි ස්වාධීන ඒකකයකි.
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // load on demand
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' // load on demand
 
 dayjs.extend(advancedFormat) // use plugin
 
 dayjs().format('Q Do k kk X x') // more available formats
 ```
 
-📚[ දිගු ලේඛනය](https://day.js.org/docs/en/plugin/plugin)
+📚[ දිගු ලේඛනය](https://dayjs.io/docs/en/plugin/plugin)
 
 ## අනුග්‍රාහකයින්
 

@@ -1,6 +1,6 @@
 日本語 | [English](../../README.md) | [简体中文](../zh-cn/README.zh-CN.md) | [Português Brasileiro](../pt-br/README-pt-br.md) | [한국어](../ko/README-ko.md) | [Español (España)](../es-es/README-es-es.md) | [Русский](../ru/README-ru.md)| [עברית](../he/README-he.md)
 
-<p align="center"><a href="https://day.js.org/" target="_blank" rel="noopener noreferrer"><img width="550"
+<p align="center"><a href="https://dayjs.io/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">Moment.js と同じ API を備えた <b>2kB</b> の軽量ライブラリ</p>
@@ -11,11 +11,11 @@
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square"
                                                        alt="NPM Version"></a>
-    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
-            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
-    <a href="https://codecov.io/gh/iamkun/dayjs"><img
-            src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
-    <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
+    <a href="https://github.com/hamzaKaGit/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/hamzaKaGit/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/hamzaKaGit/dayjs"><img
+            src="https://img.shields.io/codecov/c/github/hamzaKaGit/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
+    <a href="https://github.com/hamzaKaGit/dayjs/blob/master/LICENSE"><img
             src="https://img.shields.io/npm/l/dayjs.svg?style=flat-square" alt="License"></a>
     <br>
     <a href="https://saucelabs.com/u/dayjs">
@@ -46,15 +46,15 @@ dayjs()
 
 ### ドキュメント
 
-詳細、API、その他のドキュメントについては、[day.js.org](https://day.js.org/) のウェブサイトを参照してください。
+詳細、API、その他のドキュメントについては、[dayjs.io](https://dayjs.io/) のウェブサイトを参照してください。
 
 ### インストール
 
 ```console
-npm install dayjs --save
+npm install @hamzaka/dayjs --save
 ```
 
-📚[インストールガイド](https://day.js.org/docs/en/installation/installation)
+📚[インストールガイド](https://dayjs.io/docs/en/installation/installation)
 
 ### API
 
@@ -74,7 +74,7 @@ dayjs().add(1, 'year') // 操作
 dayjs().isBefore(dayjs()) // クエリ
 ```
 
-📚[API リファレンス](https://day.js.org/docs/en/parse/parse)
+📚[API リファレンス](https://dayjs.io/docs/en/parse/parse)
 
 ### 国際化 (I18n)
 
@@ -83,7 +83,7 @@ Day.js は国際化を手厚くサポートしています。
 また、使用しないロケールをビルドに含みません。
 
 ```javascript
-import 'dayjs/locale/es' // 必要に応じて読み込み
+import '@hamzaka/dayjs/locale/es' // 必要に応じて読み込み
 
 dayjs.locale('es') // スペイン語をグローバルロケールとして適用
 
@@ -92,21 +92,21 @@ dayjs('2018-05-05')
   .format() // 簡体字中国語を特定のインスタンスにのみ適用
 ```
 
-📚[国際化](https://day.js.org/docs/en/i18n/i18n)
+📚[国際化](https://dayjs.io/docs/en/i18n/i18n)
 
 ### プラグイン
 
 プラグインとは、 Day.js の機能を拡張したり、新たな機能を追加するための独立したモジュールのことです。
 
 ```javascript
-import advancedFormat from 'dayjs/plugin/advancedFormat' // 必要に応じて読み込み
+import advancedFormat from '@hamzaka/dayjs/plugin/advancedFormat' // 必要に応じて読み込み
 
 dayjs.extend(advancedFormat) // プラグインを使用
 
 dayjs().format('Q Do k kk X x') // 多様なフォーマットが利用可能に
 ```
 
-📚[プラグインリスト](https://day.js.org/docs/en/plugin/plugin)
+📚[プラグインリスト](https://dayjs.io/docs/en/plugin/plugin)
 
 ## ライセンス
 

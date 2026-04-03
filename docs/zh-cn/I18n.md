@@ -1,3 +1,3 @@
 ### 提醒
 
-文档已迁移至 [https://day.js.org](https://day.js.org)。
+文档已迁移至 [https://dayjs.io](https://dayjs.io)。
